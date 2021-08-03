@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bank_realstate *.css
+recursive-include bank_realstate *.csv
+recursive-include bank_realstate *.html
+recursive-include bank_realstate *.ico
+recursive-include bank_realstate *.js
+recursive-include bank_realstate *.json
+recursive-include bank_realstate *.md
+recursive-include bank_realstate *.png
+recursive-include bank_realstate *.py
+recursive-include bank_realstate *.svg
+recursive-include bank_realstate *.txt
+recursive-exclude bank_realstate *.pyc
